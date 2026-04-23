@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "about_me": {
+      "type": "about-me",
+      "settings": {}
+    }
+  },
+  "order": ["about_me"]
+}

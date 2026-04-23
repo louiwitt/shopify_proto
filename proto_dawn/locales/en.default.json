@@ -383,6 +383,34 @@
       "min_error": "This item has a minimum of {{ min }}",
       "max_error": "This item has a maximum of {{ max }}",
       "step_error": "You can only add this item in increments of {{ step }}"
+    },
+    "about-me": {
+      "name": "About Me",
+      "settings": {
+        "bg_color": {
+          "label": "Background color"
+        },
+        "image": {
+          "label": "Photo"
+        },
+        "title": {
+          "label": "Title",
+          "default": "About Me"
+        },
+        "text": {
+          "label": "Text",
+          "default": "<p>Text about myself</p>"
+        },
+        "button_label": {
+          "label": "Button text"
+        },
+        "button_url": {
+          "label": "Button link"
+        }
+      },
+      "presets": {
+        "name": "About Me"
+      }
     }
   },
   "localization": {
