@@ -3408,6 +3408,34 @@
       "presets": {
         "name": "Collapsible content"
       }
+    },
+    "about-me": {
+      "name": "About Me",
+      "settings": {
+        "bg_color": {
+          "label": "Background color"
+        },
+        "image": {
+          "label": "Photo"
+        },
+        "title": {
+          "label": "Title",
+          "default": "About Me"
+        },
+        "text": {
+          "label": "Text",
+          "default": "<p>Text about myself</p>"
+        },
+        "button_label": {
+          "label": "Button text"
+        },
+        "button_url": {
+          "label": "Button link"
+        }
+      },
+      "presets": {
+        "name": "About Me"
+      }
     }
   }
 }

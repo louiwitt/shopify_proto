@@ -3408,6 +3408,34 @@
       "presets": {
         "name": "Liste rapide des commandes"
       }
+    },
+    "about-me": {
+      "name": "À propos",
+      "settings": {
+        "bg_color": {
+          "label": "Couleur de fond"
+        },
+        "image": {
+          "label": "Photo"
+        },
+        "title": {
+          "label": "Titre",
+          "default": "À propos de moi"
+        },
+        "text": {
+          "label": "Texte de présentation",
+          "default": "<p>Texte sur moi</p>"
+        },
+        "button_label": {
+          "label": "Texte du bouton"
+        },
+        "button_url": {
+          "label": "Lien du bouton"
+        }
+      },
+      "presets": {
+        "name": "À propos"
+      }
     }
   }
 }
