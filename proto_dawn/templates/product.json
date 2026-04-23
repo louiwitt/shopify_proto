@@ -20,11 +20,7 @@
             "show_inventory_quantity": true
           }
         },
-        "year": {
-          "type": "year",
-          "settings": {}
-        },
-        "artwork_info": {
+                "artwork_info": {
           "type": "artwork_info",
           "settings": {}
         },
@@ -68,7 +64,6 @@
       "block_order": [
         "inventory",
         "title",
-        "year",
         "artwork_info",
         "price",
         "variant_picker",
