@@ -105,6 +105,12 @@
                     </h2>
                   </a>
                 </div>
+              {%- when 'year' -%}
+                {%- if product.metafields.custom.year.value != blank -%}
+                  <div class="product__year" {{ block.shopify_attributes }}>
+                    {{ product.metafields.custom.year.value }}
+                  </div>
+                {%- endif -%}
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
@@ -788,6 +794,11 @@
       "type": "price",
       "name": "t:sections.main-product.blocks.price.name",
       "limit": 1
+    },
+    {
+      "type": "year",
+      "name": "t:sections.main-product.blocks.year.name",
+      "limit": 1    
     },
     {
       "type": "sku",

@@ -12,12 +12,17 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
+        "inventory": {
+          "type": "inventory",
           "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
           }
+        },
+        "year": {
+          "type": "year",
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -57,8 +62,9 @@
         }
       },
       "block_order": [
-        "vendor",
+        "inventory",
         "title",
+        "year",
         "price",
         "variant_picker",
         "quantity_selector",
