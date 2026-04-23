@@ -482,7 +482,7 @@
           "settings": {
             "text": {
               "label": "Text",
-              "default": "Welcome to our store"
+              "default": "Welcome to my prototype!"
             },
             "text_alignment": {
               "label": "Text alignment",
@@ -3420,17 +3420,19 @@
         },
         "title": {
           "label": "Title",
-          "default": "About Me"
+          "default": "Hi! I am Louise."
         },
         "text": {
           "label": "Text",
-          "default": "<p>Text about myself</p>"
+          "default": "<p>I recently graduated from Centrale Lyon and am looking for a developer position in Paris. Check out my LinkedIn profile! </p>"
         },
         "button_label": {
-          "label": "Button text"
+          "label": "Button text",
+          "default": "My Linkedin profile"
         },
         "button_url": {
-          "label": "Button link"
+          "label": "Button link",
+          "default": "https://www.linkedin.com/in/louise-wittmann-724591207"
         }
       },
       "presets": {

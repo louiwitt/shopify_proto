@@ -456,7 +456,7 @@
           "settings": {
             "text": {
               "label": "Texte",
-              "default": "Bienvenue dans notre boutique"
+              "default": "Bienvenue dans mon prototype !"
             },
             "text_alignment": {
               "label": "Alignement du texte",
@@ -3420,17 +3420,19 @@
         },
         "title": {
           "label": "Titre",
-          "default": "À propos de moi"
+          "default": "Bonjour ! Je suis Louise."
         },
         "text": {
           "label": "Texte de présentation",
-          "default": "<p>Texte sur moi</p>"
+          "default": "<p>Fraîchement diplômée de Centrale Lyon, je suis en recherche d'un poste de dev à Paris. Passez voir mon profil Linkedin ! </p>"
         },
         "button_label": {
-          "label": "Texte du bouton"
+          "label": "Texte du bouton",
+          "default": "Mon profil Linkedin"
         },
         "button_url": {
-          "label": "Lien du bouton"
+          "label": "Lien du bouton",
+          "default": "https://www.linkedin.com/in/louise-wittmann-724591207"
         }
       },
       "presets": {
