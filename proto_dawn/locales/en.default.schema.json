@@ -1960,6 +1960,9 @@
         "price": {
           "name": "Price"
         },
+        "artwork-info": {
+          "name": "Artwork info"
+        },
         "inventory": {
           "name": "Inventory status",
           "settings": {

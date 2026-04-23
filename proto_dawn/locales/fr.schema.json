@@ -1637,6 +1637,9 @@
         "price": {
           "name": "Prix"
         },
+        "artwork-info": {
+          "name": "Informations sur l'oeuvre"
+        },
         "quantity_selector": {
           "name": "Sélecteur de quantité"
         },
