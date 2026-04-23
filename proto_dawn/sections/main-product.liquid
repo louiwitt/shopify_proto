@@ -105,12 +105,17 @@
                     </h2>
                   </a>
                 </div>
-              {%- when 'year' -%}
-                {%- if product.metafields.custom.year.value != blank -%}
-                  <div class="product__year" {{ block.shopify_attributes }}>
-                    {{ product.metafields.custom.year.value }}
-                  </div>
-                {%- endif -%}
+              {%- when 'artwork_info' -%}
+                <div class="product__artwork-info" {{ block.shopify_attributes }}>
+                  {%- if product.metafields.custom.year.value != blank -%}
+                    <span class="product__year">{{ product.metafields.custom.year.value }}</span>
+                  {%- endif -%}
+                  {%- if product.metafields.shopify.painting-medium.value != blank -%}
+                    {%- for medium in product.metafields.shopify.painting-medium.value -%}
+                      <span class="product__painting-medium">{{ medium.label }}</span>
+                    {%- endfor -%}
+                  {%- endif -%}
+                </div>
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
@@ -798,6 +803,11 @@
     {
       "type": "year",
       "name": "t:sections.main-product.blocks.year.name",
+      "limit": 1    
+    },
+    {
+      "type": "artwork_info",
+      "name": "t:sections.main-product.blocks.artwork-info.name",
       "limit": 1    
     },
     {

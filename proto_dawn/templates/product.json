@@ -24,6 +24,10 @@
           "type": "year",
           "settings": {}
         },
+        "artwork_info": {
+          "type": "artwork_info",
+          "settings": {}
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -65,6 +69,7 @@
         "inventory",
         "title",
         "year",
+        "artwork_info",
         "price",
         "variant_picker",
         "quantity_selector",
