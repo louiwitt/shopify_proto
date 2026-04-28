@@ -20,7 +20,7 @@
             "show_inventory_quantity": true
           }
         },
-                "artwork_info": {
+        "artwork_info": {
           "type": "artwork_info",
           "settings": {}
         },
